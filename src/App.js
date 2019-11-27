@@ -1,11 +1,14 @@
 import React from 'react';
-import './App.css';
 import '../node_modules/bootstrap/dist/css/bootstrap.min.css';
-import Header from './components/header'
+import Header from './components/header';
+import Main from './components/main';
 
 function App() {
   return (
-    <Header/>
+    <>
+    <Header />
+    <Main />
+    </>
   );
 }
 
