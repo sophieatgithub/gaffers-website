@@ -1,4 +1,5 @@
 import React, { Component } from 'react'
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 const groupPhoto = require('../images/group-photo.jpg');
 
 export default class Home extends Component {
@@ -6,7 +7,7 @@ export default class Home extends Component {
         return (
             <div className="component-container">
                 <header>
-                    <nav className="navbar navbar-expand-lg bg-light fixed-top">
+                    <nav className="navbar">
                         <ul className="navbar-nav">
                             <li className="nav-item">
                                 <a className="nav-link navbar-brand">
@@ -44,13 +45,16 @@ export default class Home extends Component {
                                 </a>
                             </li>
                         </ul>
-                        <ul class="navbar-nav ml-auto nav-flex-icons">
-                            <li class="nav-item">
-                            <a class="btn btn-block btn-social btn-twitter">
-                                <span class="fa fa-twitter"></span> Sign in with Twitter
-                            </a>
+                        <ul className="navbar-nav ml-auto nav-flex-icons">
+                            <li className="nav-item">
+                                <a className="nav-link waves-effect waves-light">
+                                    <i className="fab fa-facebook-f"></i>
+                                </a>
                             </li>
-                            <li class="nav-item">
+                            <li className="nav-item">
+                                <a class="nav-link waves-effect waves-light">
+                                    <i className="fab fa-youtube"></i>
+                                </a>
                             </li>
                         </ul>
                     </nav>
