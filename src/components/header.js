@@ -6,7 +6,7 @@ export default class Home extends Component {
         return (
             <div className="component-container">
                 <header>
-                    <img src={groupPhoto} alt="group photo of shanty singers" />
+                    <img src={groupPhoto} alt="group of shanty singers" />
                 </header>
             </div>
         )
