@@ -7,7 +7,7 @@ export default class Home extends Component {
         return (
             <div className="component-container">
                 <header>
-                    <nav className="navbar">
+                    <nav className="navbar navbar-expand-lg navbar-light bg-light fixed-top">
                         <ul className="navbar-nav">
                             <li className="nav-item">
                                 <a className="nav-link navbar-brand">
