@@ -1,6 +1,6 @@
 import React, { Component } from 'react'
 import { Link } from 'react-router-dom'
-import '../styles/font.css'
+
 const groupPhoto = require('../images/group-photo.jpg');
 
 export default class Home extends Component {
