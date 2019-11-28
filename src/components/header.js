@@ -1,6 +1,6 @@
 import React, { Component } from 'react'
 import { Link } from 'react-router-dom'
-import '../styles/font.css'
+
 const groupPhoto = require('../images/group-photo.jpg');
 
 export default class Home extends Component {
@@ -19,24 +19,24 @@ export default class Home extends Component {
                         <div className="collapse navbar-collapse" id="navbarNav">
                             <ul className="navbar-nav">
                                 <li className="nav-item">
-                                    <Link className="nav-link" to='/'>Home</Link>
+                                    <Link className="nav-link mx-2" to='/'>Home</Link>
                                 </li>
                                 <li className="nav-item">
-                                    <Link className="nav-link" to='/about'>About</Link>
+                                    <Link className="nav-link mx-2" to='/about'>About</Link>
                                 </li>
                                 <li className="nav-item">
-                                    <Link className="nav-link" to='/gigs'>Gigs</Link>
+                                    <Link className="nav-link mx-2" to='/gigs'>Gigs</Link>
                                 </li>
                                 <li className="nav-item">
-                                    <Link className="nav-link" to='/shop'>Shop</Link>
+                                    <Link className="nav-link mx-2" to='/shop'>Shop</Link>
                                 </li>
-                                <li className="nav-item">
+                                <li className="nav-item mx-2">
                                     <Link className="nav-link" to='/gallery'>Gallery</Link>
                                 </li>
-                                <li className="nav-item">
+                                <li className="nav-item mx-2">
                                     <Link className="nav-link" to='/contact'>Contact</Link>
                                 </li>
-                                <li className="nav-item">
+                                <li className="nav-item mx-2">
                                     <Link className="nav-link" to='/members'>Members</Link>
                                 </li>
                             </ul>

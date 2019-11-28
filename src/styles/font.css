@@ -1,3 +1,5 @@
 .nautical-font {
-    color: blue;
+    font-family: 'Sail', cursive;
+    font-size: 2rem;
+    padding: 0.1rem;
 }
